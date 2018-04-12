@@ -1,0 +1,117 @@
+
+.menu {
+    background: white;
+    border-top: 2px solid #44d9e9;
+    color: #fff;
+    height: 20%;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+}
+.menu-left{
+	height: 100px;
+    position: absolute;
+    width: 50px;
+	float:left
+}
+.menu-left-logo {
+    display: block;
+    float: left;
+    height: 40px;
+	width: 160px;
+	margin-left:50px;
+	margin-top:50px;
+}
+.menu-right {
+	list-style-type: none;
+	margin: 5px;
+	overflow: hidden;
+	background-color: white;
+	margin-right: 270px;
+	margin-top: 35px;
+	float: right;
+	padding: 5px;
+}
+
+.li {
+    float: left;
+	margin-left: 60px;
+}
+
+.li a {
+    display: block;
+    color: #44d9e9;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: underline;
+}
+
+.li a:hover {
+	box-shadow: inset 0 0 0 10px #00FFFF;
+}
+
+.depoimento{
+	margin-top:150px;
+	width:49%;
+	height:300px;
+	border:2px solid #000000;
+	float:left;
+	
+}
+.noticia{
+	margin-top:150px;
+	width:49%;
+	height:300px;
+	border:2px solid #000000;
+	float:right;
+	
+}
+
+.premios{
+	
+	
+	
+}
+
+.footer{
+	border: 2px solid #000000;
+	clear: both;
+	width: 100%;
+	height: 120px;
+	padding-top: 10px;
+
+}
+.logo-footer{
+	display: block;
+    float: left;
+    height: 30px;
+	width: 100px;
+	margin-left:20px;
+	margin-top:10px;
+	
+}
+
+.footer-left{
+	border-right:1px solid black;
+	float:left;
+	width: 15% ;
+	height:100px;
+	
+}
+.footer-left h6{
+	font-size: 20px;
+    font-weight: 400;
+	margin: 0;
+	margin-left: 5px;
+}
+
+
+.container {
+	
+	
+}
+
+

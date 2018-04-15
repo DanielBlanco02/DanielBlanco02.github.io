@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>titulo</title>
+	</head>
+	<body>
+
+	<form method="POST">
+		<label>Login</label><br>
+		<input type="text" id="login" placeholder="login" required><br>
+		<label>Nome completo</label><br>
+		<input type="text" id="nome" placeholder="nome completo" required><br>
+		<label>E-mail:</label><br>
+		<input type="email" id="email" placeholder="E-mail" required><br>
+		<label>Celular</label><br>
+		<input type="number" id="celular"><br>
+		<label>Data de nascimento: </label><br>
+		<input type="date" id="nascimento" required><br>
+		<label>CPF: </label><br>
+		<input type="string" id="cpf" placeholder="cpf" required><br>
+		<label>Senha:</label><br>
+		<input type="password" id="senha" maxlength="8" required><br>
+		<label>Confirmaçao de senha</label><br>
+		<input type="password" id="comfirma_senha" maxlength="8" required><br>
+		<input type="submit" id="submit" onclick="validar()">
+	</form>
+
+	</body>
+
+<script src="./js/cadastro.js"></script>
+</html>

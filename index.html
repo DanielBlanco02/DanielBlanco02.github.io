@@ -1,57 +1,432 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-<link href="//DanielBlanco02.github.io/css/style.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+     <title> Ensino Future</title>
+
+        <link href="css/bootstrap.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+	    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css' />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
 </head>
-<body class="body">
-<nav class="menu">
-	<div class="menu-left">
-		<img class="menu-left-logo" src="img/logo.png"/>
-	</div>
-	<div class="menu-right">
-		<ul class="menu-right">
-			<li class="li"><a href="curso.html">Cursos</a></li>
-			<li class="li"><a href="IndexLMS.2.html">Depoimentos</a></li>
-			<li class="li"><a href="#">Prêmios</a></li>
-			<li class="li"><a href="login.html">Login</a></li>
-			<li class="li"><a href="#"></a></li>
-		</ul>
-	
-	</div>
-</nav>
-	<div class="letrad">
-		<center><img class="imagem" src="img/depoimento.png"/></center>
-	</div>
-	<div class="depoimento">
-		<center><img class="depo" src="img/depo.png"/></center>
-	</div>
-	<div class="premios">
-		<center><img class="plate" src="img/plate.png"/><img class="mac" src="img/5mec.png"/><img class="plate" src="img/plate.png"/></center>
-	</div>
-	<footer>
-		<div class='footer'>
-			<div class="footer-left">
-				<img class="logo-footer" src="img/logo.png"/>
-			</div>
-			<div class="footer-left">
-				<center>
-				<h6> <b>Contato</b> </h6>
-				(11) 1234-5678 
-				<h6><b>Endereço</b></h6>
-					Avenida Rudge - Bom Retiro<br/>
-					São Paulo
-				</center>
-			</div>
-			<div class="footer-left">
-				<center>
-				<h6> Segurança </h6></br>
-				<img src="img/security.png"/>
-			</div>
-		</div>
-		<div class="container">
-				© 2018 FUTURE Certificação e Treinamento.
-		</div>
-	</footer>
+<body>
+
+ <div class="navbar navbar-inverse set-radius-zero" >
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+
+                    <img src="img/logo.png" />
+                </a>
+
+            </div>
+            <div class="right-div">
+<strong>Comercial :</strong>  comercial@future.com.br</br>
+       <strong>Telefone:             11 3254-8300
+            </div>
+          
+        </div>
+    </div>
+       <section class="menu-section">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="navbar-collapse collapse ">
+                        <ul id="menu-top" class="nav navbar-nav navbar-right">
+                            <li><a href="index.html" class="menu-top-active" >Inicio</a></li>
+                           
+                            <li><a href="cursos.html">Cursos</a></li>
+                             <li><a href="gallery.html" >Prêmios</a></li>
+                             <li><a href="features.html">Depoimentos</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="cadastro.html">Cadastro</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+     <!-- MENU SECTION END-->
+    <div id="slideshow-sec">
+        <div id="carousel-div" class="carousel slide" data-ride="carousel" >
+                   
+                    <div class="carousel-inner">
+                        <div class="item active">
+
+                            <img src="img/redes.jpeg" alt="" data-wow-duration="8s"/>
+                            <div class="carousel-caption">
+                          <h1 class="wow slideInLeft" data-wow-duration="2s" > Redes de Computadores</h1>      
+                                 <h2 class="wow slideInRight" data-wow-duration="2s">Infraestrutura da Informação</h2>  
+                            </div>
+                           
+                        </div>
+                        <div class="item">
+                            <img src="img/info.jpeg" alt="" data-wow-duration="8s"/>
+                            <div class="carousel-caption">
+                          <h1 class="wow slideInLeft" data-wow-duration="2s">Sistema da Informação</h1>      
+                                 <h2 class="wow slideInRight" data-wow-duration="2s">Gerenciamento da informação</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/banco.jpg" alt="" data-wow-duration="8s"/>
+                            <div class="carousel-caption">
+                          <h1 class="wow slideInLeft" data-wow-duration="2s" >Banco de Dados </h1>      
+                                 <h2 class="wow slideInRight" data-wow-duration="5s" >Solução em nuvens</h2>  
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <!--INDICATORSII-->
+                     <ol class="carousel-indicators">
+                        <li data-target="#carousel-div" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-div" data-slide-to="1"></li>
+                        <li data-target="#carousel-div" data-slide-to="2"></li>
+                    </ol>
+                    <!--PREVIUS-NEXT BUTTONS-->
+                     <a class="left carousel-control" href="#carousel-div" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-div" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+                </div>
+    </div>
+    <!-- SLIDESHOW SECTION END-->
+    <div class="below-slideshow">
+         <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="txt-block">
+
+              
+                <center><i class="fa fa-bullseye fa-4x"></i></center>                       
+        									<center><h4>Missão</h4></center>
+        									<p ></center>
+        										Acreditar que o futuro está acontecendo agora e distribuir a informação aos 4 cantos.
+        									</p>
+                    </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="txt-block">
+
+              
+                <center><i class="fa fa-binoculars fa-3x"></i></center>
+                          <center><h4>Visão</h4></center>
+        									<p >
+        									<strong>Future</strong> fundada especialmente para que todos tenha acesso a informação sem dificuldades, hoje contamos com diversas formas de ingresso aos cursos.
+        									</p>
+                    </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="txt-block">
+
+              
+                <center><i class="fa fa-users fa-3x"></i></center>
+                          <center><h4>Valores</h4></center>
+        									<p >
+        										Prezamos pelo conhecimento uma fonte inesgotavel de vida,  ajudaremos a compartilha-lo porque acreditamos que a tecnologia avança mais rapido que a velocidade de leitura desse texto.
+        									</p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- BELOW SLIDESHOW SECTION END-->
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+             <h1 class="tag-home">  Á Tecnologia   pertecem ao futuro, mas nós da <strong>Future </strong>discordamos, a Tecnologia  está aqui ! zelamos pelos sonhos e projetos somos uns dos maiores investidores da america latina em start-up, a ideia é sua e podemos torna-la possível.</h1> 
+               <hr />
+                 </div>
+            </div>
+          </div>
+     <!-- TAG HOME SECTION END-->
+   
+            <div class="container">
+             
+        <div class="row pad-set"> 
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="just-txt-div">
+                    <h2>Facilitando a visão do futuro ao seu presente</h2>
+                    <br />
+                <p>
+                 Entender as necessidades das empresas é fundamental para faze-las crescer e gerar bons resultados. Desta maneira, um dos caminhos para alavancar os negócios e se destacar no mercado de trabalho é o da Tecnologia  . Para isso, a Faculdade Impacta oferece a graducao em <strong>Analise e Desenvolvimento de Sistemas</strong>, que prepara você para atuar em todas as etapas de projetos de Tecnologia  da informação - concepcao, gerencia e manutenção, aplicacao e mensuracao de resultados.
+                </p>
+                     <p>
+                   O curso é voltado para a criação de <strong>programas​, softwares e sistemas</strong> para as empresas. As etapas do projeto de sistemas de software, como análise, projeto, teste, gestão, implantação e manutenção de sistemas de informação também estão entre os aprendizados da graduação.
+                </p>
+                    <p>
+                    O curso tem disciplinas em <strong>EAD​</strong>, o que flexibiliza o estudo e otimiza os deslocamentos.
+                </p>
+                </div>
+                
+                </div>
+             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <div class="just-txt-div">
+                      <br />
+                 <iframe class="vedio-style" src="https://www.youtube.com/embed/KD-f2Ff9u-M"></iframe>
+                      </div>
+                </div>
+            </div>
+          </div>      
+  
+   <!--VEDIO SECTION END-->
+    <div class="parallax-like">
+        <div class="overlay">
+
+       
+       <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="just-txt-div"/>
+                  <strong> 749+</strong> 
+                    <p>
+                        Calouros 
+                    </p>
+                </div>
+                </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="just-txt-div">
+                  <strong> 2448+</strong> 
+                    <p>
+                        Veteranos
+                    </p>
+                </div>
+                </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="just-txt-div">
+                  <strong> 4152+</strong> 
+                    <p>
+                        Formados
+                    </p>
+                </div>
+                </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="just-txt-div">
+                  <strong> 500+</strong> 
+                    <p>
+                        Empresarios
+                    </p>
+                </div>
+                </div>
+            </div>
+           </div>
+             </div>
+    </div>
+     <!-- PARALLAX LIKE SECTION END-->
+    <div class="just-sec">
+        
+
+        <div class="container">
+             <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1 class="head-line">Top melhores cursos  </h1>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-17">
+                <div class="just-txt-div">
+
+              <center><i class="fa fa-code fa-4x"></i></center>
+
+      									<center><h4>Sistema da Informação </h4></center>
+      									<p >
+      										O profissional desta área pode atuar em qualquer tipo de empresa de quase todos os setores, de bancos e organizações de saúde a empresas públicas e de comércio eletrônico. Alguns cargos da graduação são: Analista de Sistemas, Administrador de Dados, Gerente de Sistemas e Processos de Gerente de TI.
+      									</p>                   
+                     </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="just-txt-div">
+
+              
+                <center><i class="fa fa-wifi fa-4x"></i></center>
+      									<center><h4>Redes de Computadores</h4></center>
+      									<p >
+      										Cada vez mais as empresas precisam de diferentes tipos de redes, como Wi-Fi, intranet, dispositivos móveis, entre outros. Com o curso de Redes de Computadores, você estará apto para analisar, projetar, instalar e administrar soluções para sistemas eficientes e seguros em projetos de redes.
+      									</p>
+                          
+                    </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="just-txt-div">
+
+              
+                <center><i class="fa fa-sitemap fa-4x"></i></center>
+                        <center><h4>Banco de Dados</h4></center>
+      									<p >
+      										O curso de Banco de Dados prepara o aluno para ser um profissional versátil e com habilidades para atuar com diversas plataformas e estruturas de desenvolvimento e administração de sistemas de Banco de Dados, com acesso a todo o repertório técnico e teórico da área.
+      									</p>
+                       
+                    </div>
+            </div>
+        </div>
+             
+    </div>
+    </div>         
+     <!--JUST SECTION END
+     <div class="container " >
+         <div class="row ">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1 class="head-line">Our Clients </h1>
+                <br />
+                </div>
+            </div>
+             <div class="row ">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <hr />
+                 <div class="flexslider carousel">
+          <ul class="slides">
+            <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+  	    		 <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+               <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+               <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+            <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+  	    		 <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+               <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+               <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+              <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+  	    		 <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+               <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+               <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+              <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+  	    		 <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+               <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+               <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+              <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+  	    		 <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+               <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+               <li>
+  	    	    <img src="img/client.jpg" />
+  	    		</li>
+          </ul>
+        </div>
+                <hr />
+                <br />
+                </div>
+            </div>
+         </div>-->
+     <!--CLIENT SECTION END-->
+     <div class="container " >
+             <div class="row">
+            <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-12 set-div">
+                <div class="just-txt-div text-center">
+                    <h3><strong>Universidade Future vem subindo nos rank de melhores universidades do brasil</strong> </h3>
+                    <p>
+                        Considerada uma das melhores faculdades com foco em Tecnologia   do País, a Universidade Future oferece cursos de<strong> Graduação, Pós-Graduação e MBA e cursos técnicos.</strong> Conheça quais são as áreas de conhecimento que a Future aborda e saiba um pouco mais sobre cada curso: 
+                      <br /><br />
+                    </p>
+                      <a class="btn btn-info btn-lg" href="depoimentos.html">Depoimentos</a>
+                    &nbsp;&nbsp;
+                    <a class="btn btn-success btn-lg" href="cursos.html">Seja Aluno</a>
+                </div>
+               
+                </div>
+            </div>
+         </div>
+      <!--SET-DIV SECTION END-->
+   
+   <div class="footer-sec">
+         <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+              
+									<h3> <strong> Sobre Nós</strong> </h3>
+									<p style="padding-right:50px;" >
+										Fundada em 2018, a Universidade Future e um projeto feito pela equipe de Sistema da Informação do 2º semestre consegue desenvolve uma indentidade visual que chega muito proxima ao realismo nosso intuito e demonstrar as habilidades aprendidas em sala
+									</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 social-div">
+               
+
+              
+										<h3> <strong>Siga-nos</strong> </h3>
+                Nossas midias, suas midias
+                <a href="#" ><h4>FACEBOOK </h4></a>
+                   <a href="#" ><h4>TWITTER </h4></a>
+                 <a href="#" ><h4>LINKEDIN </h4></a>
+									
+                    
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <h3> <strong>Localização Future</strong> </h3>
+                Seu futuro começa aqui ↓
+                <br />
+                <h4>Avenida Rudge, 315 </h4>
+                 <h4>Barra Funda, São Paulo,</h4>
+                 <h4>CEP: 01133-000</h4>
+            </div>
+        </div>
+ <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <hr />
+                <div style="text-align:right;padding:5px;">
+                    &copy;2018 www.future.com.br | <a href="#" style="color:#fff;" target="_blank" >Designed By: Alunos Future</a>
+                </div>
+            </div>
+    </div>
+    </div>
+       </div>
+     <!--FOOTER SECTION END-->
+      <!-- WE PUT SCRIPTS AT THE END TO LOAD PAGE FASTER-->
+     <!--CORE SCRIPTS PLUGIN-->
+    <script src="js/jquery-1.11.1.min.js"></script>
+     <!--BOOTSTRAP SCRIPTS PLUGIN-->
+<script src="js/bootstrap.js"></script>
+     <!--WOW SCRIPTS PLUGIN-->
+    <script src="js/wow.js"></script>
+     <!--FLEXSLIDER SCRIPTS PLUGIN-->
+    <script src="js/jquery.flexslider.js"></script>
+     <!--CUSTOM SCRIPTS -->
+    <script src="js/custom.js"></script>
 </body>
 </html>

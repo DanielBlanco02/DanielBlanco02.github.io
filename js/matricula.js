@@ -16,6 +16,6 @@ function validar(){
     
             
     
-        confirm("Alunos aprovados: "+ aprovados + ", Alunos cancelados: " + cancelados)
+        confirm(aprovados + ": alunos foram aprovados e "+ cancelados +": alunos foram reprovados." )
         }
         

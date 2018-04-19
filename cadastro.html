@@ -1,31 +1,144 @@
-<!DOCTYPE html>
+﻿﻿<!DOCTYPE html>
 <html>
-	<head>
-		<title>Cadastro</title>
-	</head>
-	<body>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+     <title> Ensino Future Cadastro</title>
 
-	<form method="POST">
-		<label>Login</label><br>
-		<input type="text" id="login" placeholder="login" required><br>
-		<label>Nome completo</label><br>
-		<input type="text" id="nome" placeholder="nome completo" required><br>
-		<label>E-mail:</label><br>
-		<input type="email" id="email" placeholder="E-mail" required><br>
-		<label>Celular</label><br>
-		<input type="number" id="celular"><br>
-		<label>Data de nascimento: </label><br>
-		<input type="date" id="nascimento" required><br>
-		<label>CPF: </label><br>
-		<input type="string" id="cpf" placeholder="cpf" required><br>
-		<label>Senha:</label><br>
-		<input type="password" id="senha" maxlength="8" required><br>
-		<label>Confirmaçao de senha</label><br>
-		<input type="password" id="comfirma_senha" maxlength="8" required><br>
-		<input type="submit" id="submit" onclick="validar()">
-	</form>
+        <link href="//DanielBlanco02.github.io/css/bootstrap.css" rel="stylesheet" />
+        <link href="//DanielBlanco02.github.io/css/style.css" rel="stylesheet" />
+        <link href='//DanielBlanco02.github.io/css/googleapis-open-sans-condensed.css' rel='stylesheet' type='text/css' />
+        <link href='//DanielBlanco02.github.io/css/googleapis-open-sans.css' rel='stylesheet' type='text/css' />
+        <link href='//DanielBlanco02.github.io/css/googleapis-lobster.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
 
-	</body>
+ <div class="navbar navbar-inverse set-radius-zero" >
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
 
-<script src="//danielblanco02.github.io/js/cadastro.js"></script>
+                    <img src="img/logo.png" />
+                </a>
+
+            </div>
+            <div class="right-div">
+<strong>Comercial :</strong>  comercial@future.com.br</br>
+       <strong>Telefone:</strong>             11 3254-8300
+            </div>
+          
+        </div>
+    </div>
+       <section class="menu-section">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="navbar-collapse collapse ">
+                        <ul id="menu-top" class="nav navbar-nav navbar-right">
+                            <li><a href="index.html" >Inicio</a></li>
+                           
+                            <li><a href="cursos.html" >Cursos</a></li>
+                             <li><a href="gallery.html" >Prêmios</a></li>
+                             <li><a href="features.html">Depoimentos</a></li>
+                             <li><a href="login.html" >Login</a></li>
+                             <li><a href="cadastro.html" class="menu-top-active">Cadastro</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <div class="row ">
+                <div class="col-md-12">
+                    <div class="navbar-collapse collapse ">
+                         <form action="#" method="POST"><center> 
+                              <label>Login</label><br>
+                              <input type="text" id="login" placeholder="Login" required><br>
+
+                              <label>Nome completo</label><br>
+                              <input type="text" id="nome" placeholder="Nome Completo" required><br>
+
+                              <label>E-mail</label><br>
+                              <input type="email" id="email" placeholder="E-mail" required><br>
+
+                              <label>Celular</label><br>
+                              <input type="telefone" id="celular" placeholder="Tefone"><br>
+
+                              <label>Data de Nascimento </label><br>
+                              <input type="date" id="nascimento" required><br>
+
+                              <label>CPF </label><br>
+                              <input type="string" id="cpf" placeholder="CPF" required><br>
+
+                              <label>Senha</label><br>
+                              <input type="password" id="senha" maxlength="8" required><br>
+
+                              <label>Confirmaçao de senha</label><br>
+                              <input type="password" id="comfirma_senha" maxlength="8" required><br>
+                              <button type="submit" id="submit" onclick="validar()">Cadastrar</button>
+                              
+                        </form>                
+   <div class="footer-sec">
+         <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                  <h3> <strong> Sobre Nós</strong> </h3>
+                  <p style="padding-right:50px;" >
+                    Fundada em 2018, a Universidade Future e um projeto feito pela equipe de Sistema da Informação do 2º semestre consegue desenvolve uma indentidade visual que chega muito proxima ao realismo nosso intuito e demonstrar as habilidades aprendidas em sala
+                  </p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 social-div">
+               
+
+              
+                    <h3> <strong>Siga-nos</strong> </h3>
+                Nossas midias, suas midias
+                <a href="#" ><h4>FACEBOOK </h4></a>
+                   <a href="#" ><h4>TWITTER </h4></a>
+                 <a href="#" ><h4>LINKEDIN </h4></a>
+                  
+                    
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <h3> <strong>Localização Future</strong> </h3>
+                Seu futuro começa aqui ↓
+                <br />
+                <h4>Avenida Rudge, 315 </h4>
+                 <h4>Barra Funda, São Paulo,</h4>
+                 <h4>CEP: 01133-000</h4>
+            </div>
+        </div>
+ <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <hr />
+                <div style="text-align:right;padding:5px;">
+                    &copy;2018 www.future.com.br | <a href="#" style="color:#fff;" target="_blank" >Designed By: Alunos Future</a>
+                </div>
+            </div>
+    </div>
+    </div>
+       </div>
+     <!--FOOTER SECTION END-->
+      <!-- WE PUT SCRIPTS AT THE END TO LOAD PAGE FASTER-->
+     <!--CORE SCRIPTS PLUGIN-->
+     <script src="//DanielBlanco02.github.io/js/cadastro.js"></script>
+    <script src="//DanielBlanco02.github.io/js/jquery-1.11.1.min.js"></script>
+     <!--BOOTSTRAP SCRIPTS PLUGIN-->
+<script src="//DanielBlanco02.github.io/js/bootstrap.js"></script>
+     <!--WOW SCRIPTS PLUGIN-->
+    <script src="//DanielBlanco02.github.io/js/wow.js"></script>
+     <!--FLEXSLIDER SCRIPTS PLUGIN-->
+    <script src="//DanielBlanco02.github.io/js/jquery.flexslider.js"></script>
+     <!--CUSTOM SCRIPTS -->
+    <script src="//DanielBlanco02.github.io/js/custom.js"></script>
+
+</body>
 </html>

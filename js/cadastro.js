@@ -20,7 +20,7 @@
 		//atribuindo o retorno da função(idade da pessoa) dentro da variavel idade
 		var idade = getAge(nascimento)
 		if(idade < 17){
-			alert("idade não permitida")
+			alert("A sua idade não é permitida")
 		}
 
 
@@ -28,13 +28,13 @@
 		var regex = /^(?=.*\d)(?=.*[a-z])(?!.*\s).*$/.test(password)
 
 		if(!regex){
-			alert("Senha deve letras e números")
+			alert("A sua senha deve possuir letras e números")
 		}
 
 
 		//verifica se o valor dos campos de senha são iguais
 		if (password != password_confirm) {
-			alert("Confirmação deve ser igual a senha")
+			alert("A confirmação de senha deve ser igual a sua senha")
 		}
 
 		//função para validar cpf
@@ -75,7 +75,7 @@
 		//chamando a função para validar cpf, e passando a variavel cpf que guarda o valor do input
 		var checkCpf = validaCPF(cpf);
 		if(!checkCpf){
-			alert("cpf inválido")
+			alert("Número de CPF inválido")
 		}
 
 		
